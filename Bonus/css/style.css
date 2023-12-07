@@ -6,5 +6,9 @@
 
 :root {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 18px;
+  font-size: 18px;
+}
+
+.blue {
+  color: dodgerblue;
 }

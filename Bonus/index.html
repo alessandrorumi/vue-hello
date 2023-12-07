@@ -15,9 +15,11 @@
 
   <div id="app">
 
-    <h1>{{messaggio}}</h1>
+    <h1 :class="coloreTitolo">{{messaggio}}</h1>
 
     <img :src="foto" :alt="logoVue">
+
+    <button @click="changeBackgroundColor">Cambio colore titolo</button>
 
   </div>
 
